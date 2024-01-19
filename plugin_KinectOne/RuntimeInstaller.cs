@@ -12,7 +12,7 @@ using Microsoft.UI.Xaml.Markup;
 using Microsoft.UI.Xaml.Media;
 using RestSharp;
 
-namespace plugin_KinectOneCLI;
+namespace plugin_KinectOne;
 
 internal class SetupData : ICoreSetupData
 {

@@ -1,7 +1,7 @@
 {
   "version": "1.0.0.0",
-  "display_name": "Xbox One Kinect (CLI)",
-  "download":  "plugin_KinectOneCLI.zip",
-  "changelog": "Moved the interfacing code to a shared C++/CLI handler.",
-  "guid": "K2VRTEAM-AME2-APII-DVCE-DVCEKINV2CLI"
+  "display_name": "Xbox One Kinect",
+  "download":  "plugin_KinectOne.zip",
+  "changelog": "Allow Microsoft.Kinect trimming as we're replacing it anyway.",
+  "guid": "K2VRTEAM-AME2-APII-DVCE-DVCEKINECTV2"
 }

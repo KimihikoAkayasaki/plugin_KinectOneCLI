@@ -3,7 +3,7 @@ using System.IO;
 using Windows.ApplicationModel;
 using Windows.Storage;
 
-namespace plugin_KinectOneCLI;
+namespace plugin_KinectOne;
 
 public static class PackageUtils
 {

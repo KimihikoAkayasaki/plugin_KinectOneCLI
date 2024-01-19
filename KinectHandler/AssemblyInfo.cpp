@@ -8,7 +8,7 @@ using namespace Runtime::InteropServices;
 using namespace Security::Permissions;
 
 [assembly:AssemblyTitleAttribute(L"KinectHandler")];
-[assembly:AssemblyDescriptionAttribute(L"Kinect V1 native handler for Kinect for Xbox OneCLI Amethyst (.NET) plugin")];
+[assembly:AssemblyDescriptionAttribute(L"Kinect V1 native handler for Kinect for Xbox One Amethyst (.NET) plugin")];
 [assembly:AssemblyConfigurationAttribute(L"")];
 [assembly:AssemblyCompanyAttribute(L"K2VR Team")];
 [assembly:AssemblyProductAttribute(L"KinectHandler")];

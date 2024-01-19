@@ -7,26 +7,24 @@ using System.ComponentModel.Composition;
 using System.Linq;
 using System.Numerics;
 using Amethyst.Plugins.Contract;
-using Microsoft.UI.Xaml;
-using Microsoft.UI.Xaml.Controls;
 
 // To learn more about WinUI, the WinUI project structure,
 // and more about our project templates, see: http://aka.ms/winui-project-info.
 
-namespace plugin_KinectOneCLI;
+namespace plugin_KinectOne;
 
 [Export(typeof(ITrackingDevice))]
-[ExportMetadata("Name", "Xbox One Kinect (CLI)")]
-[ExportMetadata("Guid", "K2VRTEAM-AME2-APII-DVCE-DVCEKINV2CLI")]
-[ExportMetadata("Publisher", "公彦赤屋先")]
-[ExportMetadata("Version", "1.0.0.0")]
-[ExportMetadata("Website", "https://github.com/KimihikoAkayasaki/plugin_KinectOneCLI")]
+[ExportMetadata("Name", "Xbox One Kinect")]
+[ExportMetadata("Guid", "K2VRTEAM-AME2-APII-DVCE-DVCEKINECTV2")]
+[ExportMetadata("Publisher", "K2VR Team")]
+[ExportMetadata("Version", "1.0.0.1")]
+[ExportMetadata("Website", "https://github.com/KimihikoAkayasaki/plugin_KinectOne")]
 [ExportMetadata("DependencyLink", "https://docs.k2vr.tech/{0}/one/setup/")]
 [ExportMetadata("DependencySource",
     "https://download.microsoft.com/download/A/7/4/A74239EB-22C2-45A1-996C-2F8E564B28ED/KinectRuntime-v2.0_1409-Setup.exe")]
 [ExportMetadata("DependencyInstaller", typeof(RuntimeInstaller))]
 [ExportMetadata("CoreSetupData", typeof(SetupData))]
-public class KinectOneCli : KinectHandler.KinectHandler, ITrackingDevice
+public class KinectOne : KinectHandler.KinectHandler, ITrackingDevice
 {
     [Import(typeof(IAmethystHost))] private IAmethystHost Host { get; set; }
 
